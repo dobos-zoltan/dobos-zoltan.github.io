@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: "Philosopher", sans-serif;
+}
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #600;
+  padding: 48px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 64px;
+  margin: 0 25px;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 96px;
+}
+
+.itemleft {
+  width: 670px;
+}
+
+.itemright {
+  padding: 0 36px;
+  width: 930px;
+}
+
+#name {
+  font-family: "Abril Fatface", cursive;
+  font-weight: normal;
+  color: #600;
+  font-size: 140px;
+  position: absolute;
+  top: 440px;
+  left: 95px;
+  line-height: 90%;
+  width: 900px;
+  margin: 0;
+}
+
+#name::first-line {
+  font-size: 70px;
+  line-height: 90%;
+}
+
+p {
+  font-size: 20px;
+  color: #222;
+}
+
+li {
+  list-style-type: square;
+  font-size: 32px;
+  line-height: 160%;
+}
+
+section {
+  padding: 43px 48px;
+}
+
+blockquote {
+  position: relative;
+  margin: 0;
+  padding: 100px;
+  background-color: #600;
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  font-size: 96px;
+  line-height: 150%;
+  width: 470px;
+}
+
+blockquote::before {
+  content: "“";
+  /* ide jön a stílusa */
+  position: absolute;
+  font-size: 300px;
+  top: 42px;
+  left: 0px;
+}
+
+.itemright h2 {
+  font-size: 46px;
+  color: #a00;
+  text-transform: uppercase;
+  margin-top: 116px;
+  margin-bottom: 120px;
+}
+
+.itemright h3::first-letter {
+  color: #f00;
+}
+
+.itemright h3 {
+  font-size: 46px;
+  margin-bottom: 4px;
+  margin-top: 46px;
+}
+
+.itemright p {
+  font-size: 15px;
+  /*   margin-bottom: 40px; */
+  font-size: 36px;
+  margin-top: 56px;
+  line-height: 150%;
+}
+
+em {
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  font-weight: bold;
+}
